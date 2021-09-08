@@ -1,0 +1,110 @@
+{
+    "configVersion": 2,
+    "appIdentifier": "com.mxw21_livebuild_completeproject.mobile",
+    "appName": "MxW21_LiveBuild_CompleteProject",
+    "bundleName": {
+        "main": "MxW21LiveBuildC",
+        "dev": "MxW21LiveBuiDev"
+    },
+    "deviceTarget": {
+        "phone": true,
+        "tablet": false
+    },
+    "orientation": {
+        "portrait": true,
+        "landscape": true
+    },
+    "permissions": [
+        {
+            "title": "Internet",
+            "name": "android.permission.INTERNET",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "Read External Storage",
+            "name": "android.permission.READ_EXTERNAL_STORAGE",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "System Alert Window",
+            "name": "android.permission.SYSTEM_ALERT_WINDOW",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "Write External Storage",
+            "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+            "platform": "android",
+            "required": true
+        },
+        {
+            "title": "Location - Always Usage",
+            "name": "NSLocationAlwaysUsageDescription",
+            "purpose": "To use that feature, the app needs access to your location.",
+            "platform": "ios",
+            "required": true
+        },
+        {
+            "title": "Location - When In Use Usage",
+            "name": "NSLocationWhenInUseUsageDescription",
+            "purpose": "To use that feature, the app needs access to your location.",
+            "platform": "ios",
+            "required": true
+        },
+        {
+            "title": "Location - Always And When in Use Usage",
+            "name": "NSLocationAlwaysAndWhenInUseUsageDescription",
+            "purpose": "To use that feature, the app needs access to your location.",
+            "platform": "ios",
+            "required": true
+        },
+        {
+            "title": "Fine Location",
+            "name": "android.permission.ACCESS_FINE_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Coarse Location",
+            "name": "android.permission.ACCESS_COARSE_LOCATION",
+            "platform": "android",
+            "required": false
+        }
+    ],
+    "capabilities": {
+        "deepLink": {
+            "value": "",
+            "enabled": false
+        },
+        "maps": {
+            "value": "521608cc634a33a85fb28a26596638080cf69a34",
+            "enabled": true
+        },
+        "mapsIos": {
+            "enabled": true
+        },
+        "pushNotifications": {
+            "enabled": false
+        },
+        "crashlytics": {
+            "enabled": false
+        },
+        "firebaseAndroid": {
+            "enabled": false
+        },
+        "firebaseIos": {
+            "enabled": false
+        },
+        "localNotifications": {
+            "enabled": false
+        },
+        "appCenterOTA": {
+            "enabled": false
+        }
+    },
+    "appVersion": "0.0.0",
+    "buildNumber": 1,
+    "runtimeUrl": "http://10.207.48.64:8080"
+}
